@@ -57,7 +57,7 @@ for i, t in enumerate(t_values):
     ax_top = axes[0, i]
     ax_top.xaxis.grid(True)
     ax_top.yaxis.grid(True)
-    ax_top.axhline(0, color="black", lw=1, linestyle="-")
+    ax_top.axhline(0, color='black', lw=1, linestyle='-')
     ax_top.plot(h_values, fd_vals, '--', label='Forward')
     ax_top.plot(h_values, cd_vals, ':', label='Central')
     ax_top.plot(h_values, ed_vals, '-', label='Extrapolated')
@@ -75,8 +75,8 @@ for i, t in enumerate(t_values):
     ax_bot.plot(h_values, ed_errs, '-', label='Extrapolated')
     ax_bot.set_xscale('log')
     ax_bot.set_yscale('log')
-    ax_bot.set_xlabel('h', fontsize=15)
+    ax_bot.set_xlabel('Step Size $h$', fontsize=15)
     ax_bot.set_ylabel(r'$\varepsilon_{rel}$', fontsize=20)
     ax_bot.legend()
 
-plt.savefig("exp_plots.png", dpi=300)
+plt.savefig("exp.png", dpi=300)

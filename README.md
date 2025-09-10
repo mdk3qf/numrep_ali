@@ -19,7 +19,7 @@ Which method of calculating the bessel functions is more accurate?
 
 ## Numerical Derivatives:
 Check whether the number of decimal places obtained agrees roughly with the estimates in the text.
-- The text estimates that the relative error for the forward method $\varepsilon_{fd} \sim 10^{-8}$ and central method $\varepsilon_{cd}\sim10^{-5}$.
+- The text estimates that the relative error for the forward method $\varepsilon_{fd} \sim 10^{-8}$ and central method $\varepsilon_{cd}\sim10^{-11}$.
 - The text does not provide an estimate for the extrapolation method, but the result in the plots show roughly $10^{-13}$ for the t = 1, 0.1 cases, and $10^{-11}$ for the t = 100 case.
 
 Do the slopes agree with our model’s predictions?
